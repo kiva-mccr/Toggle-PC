@@ -4,8 +4,8 @@ Servo ServoV;  // Create a servo object
 Servo ServoH;  // Create a servo object
 
 void setup() {
-  ServoV.attach(44);  // Vertical servo, with respect to the servo's base.
-  ServoH.attach(46);  // Horizontal servo, with respect to the servo's base.
+  ServoV.attach(ADD YOUR OWN PIN NUMBER HERE);  // Vertical servo, with respect to the servo's base.
+  ServoH.attach(ADD YOUR OWN PIN NUMBER HERE);  // Horizontal servo, with respect to the servo's base.
   Serial.begin(9600);
 }
 
